@@ -16,7 +16,7 @@
                     <i class="fab fa-spotify"></i>
                     <h1>Spotify</h1>
                 </div>
-                <nav class="navbar">
+                <nav class="navbar flex">
                     <div class="menu">
                         <div id="search" class="menu-item">
                             <a href="#">
@@ -73,16 +73,18 @@
             </aside>
 
             <main>
-
                 <header>
-                    <div class="top-menu">
+                    <div class="top-menu flex">
                         <div class="upgrade-subscription">
                             <a href="#"><p>Effettua l'upgrade</p></a>
                         </div>
                     </div>
                 </header>
 
-                <div class="main-content">
+                <div class="content-menu">
+
+                </div>
+                <div class="main-content flex">
                     <div class="image">
                         <img src="https://picsum.photos/200/300?random" alt="">
                     </div>
@@ -228,12 +230,44 @@
                         <img src="https://picsum.photos/200/300?random47" alt="">
                     </div>
                 </div>
-
             </main>
 
         </div>
 
-        <footer>
+        <footer class="flex">
+            <div class="now-listening flex">
+                <div class="now-listening-img">
+                    <img src="https://picsum.photos/100/100?random48" alt="">
+                </div>
+                <div class="now-listening-title">
+                    <h4>Titolo Album</h4>
+                    <p>Nome Brano</p>
+                </div>
+                <div class="now-listening-icons">
+                    <i class="far fa-heart"></i>
+                    <i class="far fa-folder"></i>
+                </div>
+            </div>
+            <div class="player-controls flex">
+                <div class="player-buttons">
+                    <i class="fas fa-random"></i>
+                    <i class="fas fa-step-backward"></i>
+                    <i class="fas fa-play"></i>
+                    <i class="fas fa-step-forward"></i>
+                    <i class="fas fa-redo"></i>
+                </div>
+                <div class="player-progression flex">
+                    <div class="progression-bar bars">
+                    </div>
+                </div>
+            </div>
+            <div class="control-panel flex">
+                <i class="fas fa-list-ul"></i>
+                <i class="fas fa-desktop"></i>
+                <i class="fas fa-volume-up"></i>
+                <div class="volume-bar bars">
+                </div>
+            </div>
 
         </footer>
     </body>
