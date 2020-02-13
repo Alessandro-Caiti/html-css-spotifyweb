@@ -209,7 +209,7 @@ header {
 
 .content-menu p:hover {
     cursor: pointer;
-    text-decoration: underline lightgreen;
+    color: white;
 }
 
 /* content menu end */
@@ -324,6 +324,10 @@ footer .bars:hover {
 .now-listening-icons {
     width: 33.33%;
     padding-left: 5px;
+}
+
+.now-listening-icons .far:hover {
+    color: white;
 }
 
 .now-listening-icons .far {
