@@ -144,6 +144,7 @@ header {
     height: 80px;
     position: fixed;
     top: 0;
+    z-index: 999;
 }
 
 .top-menu {
@@ -387,4 +388,67 @@ footer .bars:hover {
     height: 3px;
     background-color: #555555;
     margin-right: 20px;
+}
+
+/* fine footer */
+
+/* media query */
+
+@media all and (max-width: 768px) {
+    aside {
+        width: 70px;
+    }
+
+    #logo h1,
+    aside p,
+    aside h4,
+    .navbar h4,
+    .create-playlist .fas,
+    .navbar-footer p,
+    .navbar-footer .divider {
+        display: none;
+    }
+
+    .navbar-footer .fas.fa-arrow-circle-down {
+        font-size: 14px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+    }
+
+    .navbar {
+        align-items: center;
+    }
+
+    main {
+        width: calc(100vw - 70px);
+    }
+
+    .main-section {
+        padding: 20px 10px 0;
+    }
+
+    .main-content {
+        padding: 30px 10px;
+    }
+
+    .img-container {
+        width: 200px;
+        height: 200px;
+    }
+
+    .img-container img {
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+    }
+}
+
+@media all and (max-width: 420px) {
+    .main-content {
+        justify-content: center;
+    }
+
+    .main-section {
+        text-align: center;
+    }
 }
