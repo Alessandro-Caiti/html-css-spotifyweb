@@ -386,6 +386,15 @@ footer .bars:hover {
     padding: 20px 10px;
 }
 
+.hidden-bar {
+    width: 3px;
+    height: 70px;
+    margin-right: 5px;
+    background-color: #555555;
+    flex: 0 0 3px;
+    display: none;
+}
+
 .volume-bar {
     width: 150px;
     height: 3px;
@@ -479,6 +488,10 @@ footer .bars:hover {
 
     .volume-bar {
         display: none;
+    }
+
+    .hidden-bar {
+        display: block;
     }
 }
 
