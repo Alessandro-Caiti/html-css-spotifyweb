@@ -494,11 +494,7 @@ footer .bars:hover {
         display: none;
     }
 
-    .fa-volume-up:hover + .hidden-bar {
-        display: block;
-    }
-
-    .hidden-bar:hover {
+    .hidden-bar {
         display: block;
     }
 }
