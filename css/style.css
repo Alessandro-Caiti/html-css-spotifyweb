@@ -81,6 +81,7 @@ aside {
 .playlist {
     color: white;
     padding-top: 20px;
+    overflow-y: auto;
 }
 
 .create-playlist,
